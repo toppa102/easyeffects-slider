@@ -17,6 +17,7 @@
                 <!-- Application info section -->
                 <child>
                     <object class="GtkBox">
+                        <property name="hexpand">1</property>
                         <property name="halign">start</property>
                         <property name="valign">center</property>
                         <property name="spacing">6</property>
@@ -191,6 +192,7 @@
 
                 <child>
                     <object class="GtkBox">
+                        <property name="halign">end</property>
                         <property name="valign">center</property>
                         <property name="spacing">12</property>
                         <property name="orientation">vertical</property>
@@ -246,9 +248,9 @@
 
                                 <child>
                                     <object class="GtkScale" id="volume">
+                                        <property name="width-request">400</property>
                                         <property name="sensitive" bind-source="mute" bind-property="active" bind-flags="sync-create|invert-boolean" />
 
-                                        <property name="hexpand">1</property>
                                         <property name="draw-value">1</property>
                                         <property name="value-pos">1</property>
                                         <property name="digits">0</property>

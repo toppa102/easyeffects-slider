@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: easyeffects\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-24 13:04-0300\n"
+"POT-Creation-Date: 2024-02-08 22:21+0000\n"
 "PO-Revision-Date: 2023-03-23 03:20+0000\n"
 "Last-Translator: \"R.Suga\" <21r.suga@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/easyeffects/"
@@ -1989,8 +1989,8 @@ msgid "Models"
 msgstr "モデル"
 
 #. If this changes, it has to be updated in src/rnnoise_ui.cpp as default_model_name
-#: data/ui/rnnoise.ui:178 src/rnnoise_ui.cpp:100 src/rnnoise_ui.cpp:269
-#: src/rnnoise_ui.cpp:303
+#: data/ui/rnnoise.ui:178 src/rnnoise_ui.cpp:100 src/rnnoise_ui.cpp:281
+#: src/rnnoise_ui.cpp:315
 msgid "Standard Model"
 msgstr "標準モデル"
 
@@ -2178,36 +2178,36 @@ msgstr ""
 msgid "channels"
 msgstr "チャンネル"
 
-#: src/application.cpp:468
+#: src/application.cpp:482
 msgid "Weblate https://hosted.weblate.org/projects/easyeffects/"
 msgstr "Weblate https://hosted.weblate.org/projects/easyeffects/"
 
-#: src/application.cpp:558
+#: src/application.cpp:572
 msgid "Quit Easy Effects. Useful when running in service mode."
 msgstr ""
 "Easy Effects を終了します。サービスモードで動作しているときに便利です。"
 
-#: src/application.cpp:561
+#: src/application.cpp:575
 msgid "Print the easyeffects version"
 msgstr ""
 
-#: src/application.cpp:564
+#: src/application.cpp:578
 msgid "Reset Easy Effects."
 msgstr "Easy Effects をリセット。"
 
-#: src/application.cpp:567
+#: src/application.cpp:581
 msgid "Hide the Window."
 msgstr "ウィンドウを隠す。"
 
-#: src/application.cpp:570
+#: src/application.cpp:584
 msgid "Global bypass. 1 to enable, 2 to disable and 3 to get status"
 msgstr "グローバルバイパス。1 で有効、2 で無効、3 でステータス取得"
 
-#: src/application.cpp:573
+#: src/application.cpp:587
 msgid "Show available presets."
 msgstr "利用可能なプリセットを表示します。"
 
-#: src/application.cpp:576
+#: src/application.cpp:590
 msgid "Load a preset. Example: easyeffects -l music"
 msgstr "プリセットを読み込む。例: easyeffects -l music"
 
